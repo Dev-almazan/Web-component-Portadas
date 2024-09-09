@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web component portada </title>
+    <link href="https://www.etac.edu.mx/hubfs/sitio-conexxion/css/bootstrap.css" rel="stylesheet"  />
+    <link href="https://www.etac.edu.mx/hubfs/sitio-conexxion/css/fonts.css" rel="stylesheet">
+    <link href="./css/portada.css" rel="stylesheet" />
+</head>
+<body>
+
+
+
+<!-- directorio secction -->
+    <div id="portadasConexxion">
+
+                    <!-- web component portada -->
+                    <portada-conexxion id="portadaContainer" 
+                    data-titulo="Año 12 No. 36"  
+                    data-categoria="Revista Conexxión de Economía y Administración" 
+                    data-img="https://www.etac.edu.mx/hubfs/porta1.png" 
+                    data-pdf="https://aliatuniversidades.com.mx/conexxion/wp-content/uploads/2016/09/conex36.pdf" 
+                    data-primario="#774D6E" 
+                    data-secundario="#002B46">
+                    </portada-conexxion>   
+                    
+                    <!-- web component articulos -->
+                    <aside id="articulosContainer"></aside>
+                    
+                    <!-- web component indice -->
+                    <indice-conexxion id="indiceContainer" data-color="#774D6E" data-siguiente="idItem=36" data-anterior="idItem=66"></indice-conexxion>
+    </div>
+<script src="https://www.etac.edu.mx/hubfs/sitio-conexxion/js/bootstrap.js"  ></script>
+<script src="./js/portada.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>

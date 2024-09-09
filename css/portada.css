@@ -1,0 +1,394 @@
+@keyframes displace {
+    from {
+        transform: translateY(0);
+        /* Start at original position */
+    }
+
+    to {
+        transform: translateY(10px);
+        /* Displace content upwards */
+    }
+}
+
+
+
+#portadasConexxion {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    min-height: 73vh;
+    align-content: center;
+    padding-bottom: 5rem;
+    transition: all 0.2s ease;
+    }
+
+
+#portadasConexxion h2
+{
+        text-align: left;
+        font: normal normal 900 1.6em Lato;       
+}
+
+#portadasConexxion h3 {
+    text-align: left;
+    font: normal normal 900 1.2em Lato;
+}
+
+#portadasConexxion h5
+{
+        text-align: left;
+        font: normal normal normal 1.1em Lato;
+        opacity: 1;
+}
+
+
+portada-conexxion
+{
+    padding: 8rem 1.5% 1rem 0;
+    margin:  0 auto;
+    width: 100%;
+    height:  auto;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+   
+}
+
+portada-conexxion img {
+    width: 12rem;
+    height: auto;
+    border-radius: 15px;
+    z-index: 1;
+    position: relative;
+}
+
+portada-conexxion div:nth-child(2)
+{
+    display: grid;
+}
+
+portada-conexxion div div
+{
+    padding-left: 3%;
+    box-sizing: border-box;
+    padding-top: 4rem;
+
+}
+
+#portadasConexxion .btn-pdf
+{
+    position: relative;
+    top: 10px;
+    left: -20px;
+   z-index: 0;
+   height: 100%;
+   padding: 0;
+   margin: 0;
+   border-radius: 5px;
+   display: grid;
+   color: #fff;
+   grid-template-columns: 94% 6%;
+   text-align: right;
+    height: 87%;
+    max-height: auto;
+    width: 100%;
+    opacity: .9;
+}
+
+#portadasConexxion .imgPdf
+{
+    width: 2rem;
+     height: auto;
+     box-sizing: border-box;
+     border-radius: 0;
+}
+
+#portadasConexxion .btn-pdf div
+{
+    margin:  0;
+    padding: 0;  
+}
+
+#portadasConexxion .btn-pdf div:nth-child(1) {
+    
+    align-items: center;
+    align-content: center;
+    padding-right: 2%;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+#portadasConexxion .btn-pdf div:nth-child(2) {
+    align-items: center;
+   margin:  0 auto;
+}
+
+#portadasConexxion .btn-pdf h6
+{
+    text-align: right;
+        font: normal 1.3em Lato;
+        letter-spacing: 0px;
+        font-weight: 600;
+        color: #FFFFFF;
+        opacity: 1;
+        
+}
+
+
+/*section portada*/
+
+#portadasConexxion section
+{
+    padding:1rem 0;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    align-items: center;
+    text-align: left;
+    font: bolder 1.1em Lato;
+    color: #002B46;
+    width:97%;
+    box-sizing: border-box;
+}
+
+#portadasConexxion section hr
+{
+    height: 2px;
+    border: none;
+    opacity: 1 !important;
+    border-radius: 10px;
+    margin-left:.5rem ;
+    background-color: #002B46;
+}
+
+/* Articulos*/
+
+articulo-conexxion article {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    width: 97% ;
+    box-sizing: border-box;
+   padding-top:2rem ;
+transition: all 0.2s ease;
+}
+
+articulo-conexxion h2 {
+    font: bolder 1.2em Lato !important;
+    
+}
+
+articulo-conexxion h2::first-letter {
+  text-transform: uppercase;
+
+}
+
+articulo-conexxion h3 {
+    font: normal 1em Lato !important;
+    color: #002B46;
+}
+
+.btn-i
+{
+     
+    font: normal normal 700 1.3em Lato;
+    width: 97%;
+    height: 3.5rem;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 4rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+indice-conexxion  article
+{
+    width: 97% !important;
+    display: grid ;
+    margin-top: 2.6rem !important;
+    justify-items: center;
+    padding: 1.2rem 0 !important;
+}
+
+indice-conexxion article h2
+{
+    cursor: pointer !important;
+    font: normal normal bold 1em Lato !important;
+}
+
+indice-conexxion article h3 {
+    font: normal normal normal .9em Lato !important;
+    cursor: pointer !important;
+    padding-top: .5rem;
+}
+
+indice-conexxion article svg {
+    position: relative;
+    top: -160%;    
+    cursor: pointer !important;
+}
+indice-conexxion article div:nth-child(1) svg
+{
+    
+    left: -90% !important;
+}
+indice-conexxion article div:nth-child(2) svg {
+    left: 145% !important;
+}
+indice-conexxion article div
+{
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    
+}
+indice-conexxion article div:nth-child(1)
+{
+    width: 100%;
+}
+/*estilos para movil y tablet*/
+@media screen and (max-width:1600px) {
+
+    #portadasConexxion {
+            width: 73%;
+            
+        }
+
+
+        
+     
+}
+
+@media screen and (max-width:1300px) {
+    #portadasConexxion .btn-pdf {
+            grid-template-columns: 90% 10%;
+        }
+
+}
+/*estilos para movil y tablet*/
+@media screen and (max-width:800px) {
+
+
+#portadasConexxion {
+        width: 90%;
+        padding: 8% 0;
+        
+    }
+
+        portada-conexxion {
+            padding: 4rem  0 0 0;
+            grid-template-columns: repeat(1,1fr);
+            margin:  0 auto;
+        }
+        
+
+portada-conexxion img {
+    width: 65%;
+    height: auto;
+    border-radius: 15px;
+    z-index: 1;
+    position:initial;
+    margin:  0 auto;
+    display: flex;
+}
+
+#portadasConexxion h2 {
+    text-align: center;
+    font: normal normal 900 1.6em Lato;
+}
+
+#portadasConexxion h3 {
+    text-align: center;
+    font: normal normal 900 1.2em Lato;
+}
+
+#portadasConexxion h5 {
+    text-align: center;
+    font: normal normal normal .9em Lato;
+    opacity: 1;
+}
+
+#portadasConexxion .btn-pdf {
+    position: initial;
+    top: 0;
+    left:0;
+    z-index: 0;
+    height: 3.5rem;
+    padding: .5rem 0;
+    margin-top: 1rem;
+    grid-template-columns: 80% 20%;
+}
+
+#portadasConexxion 
+.btn-pdf h6 {
+    text-align: center;
+    font: normal 1.3em Lato;
+}
+
+portada-conexxion div div {
+    padding-left: 0%;
+    box-sizing: border-box;
+    padding-top: 2rem;
+}
+
+articulo-conexxion article {
+    grid-template-columns: repeat(1,1fr);
+    width: 97%;
+    padding-top: 2rem;
+}
+
+articulo-conexxion article button {
+   width: 100%;
+}
+
+articulo-conexxion h2 {
+    font: bolder 1.1em Lato !important;
+    
+}
+
+articulo-conexxion h3 {
+    font: normal .9em Lato !important;
+  
+}
+        #portadasConexxion h5 {    
+            font: normal normal normal 1.2em Lato; 
+        }
+
+
+                .btn-i {
+        
+                    font: normal normal 700 1em Lato;
+                    height: 3rem;
+                    margin-top: 3rem;
+                 
+                }
+
+    
+
+    indice-conexxion article svg {
+        position: relative;
+        top: -3rem;
+        cursor: pointer !important;
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    indice-conexxion article div:nth-child(1) svg {
+        left: -40px !important;
+    }
+
+    indice-conexxion article div:nth-child(2) svg {
+        left: 100px !important;
+    }
+
+
+        indice-conexxion article h2 {
+          font: normal normal bold .9em Lato !important;
+        }
+    
+        indice-conexxion article h3 {
+            font: normal normal normal .8em Lato !important;
+            
+        }
+}
