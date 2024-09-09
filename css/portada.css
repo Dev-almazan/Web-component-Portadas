@@ -14,12 +14,12 @@
 
 #portadasConexxion {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     height: auto;
-    min-height: 73vh;
-    align-content: center;
-    padding-bottom: 5rem;
     transition: all 0.2s ease;
+    align-content: center;
+    display: grid;
+    
     }
 
 
@@ -44,13 +44,13 @@
 
 portada-conexxion
 {
-    padding: 8rem 1.5% 1rem 0;
+    padding: 3rem 1.5% 1rem 0;
     margin:  0 auto;
     width: 100%;
     height:  auto;
     display: grid;
     grid-template-columns: min-content 1fr;
-   
+    
 }
 
 portada-conexxion img {
@@ -252,7 +252,7 @@ indice-conexxion article div:nth-child(1)
 
     #portadasConexxion {
             width: 73%;
-            
+                padding: 1rem 0;
         }
 
 
